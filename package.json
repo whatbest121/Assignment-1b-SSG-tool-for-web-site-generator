@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+}
+  "scripts": {
+    "deploy": "Gatsby build --prefix-paths && gh-pages -d public"
+  }
+}

@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "description": "my-gatsby-site",
-  "author": "passakorn2663",
+  "author": "whatbest",
   "keywords": [
     "gatsby"
   ],
   "scripts": {
+    "deploy": "Gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",

@@ -1,7 +1,5 @@
 module.exports = {
-  // siteMetadata: {
-  //   siteUrl: `https://www.yourdomain.tld`,
-  // },
+	pathPrefix: "/Assignment-1b-SSG-tool-for-web-site-generator/my-gatsby-site/",
   plugins: [
     {
 			resolve: '@directus/gatsby-source-directus',
