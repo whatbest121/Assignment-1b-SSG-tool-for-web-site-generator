@@ -1,0 +1,13 @@
+.nav-bar {
+  background-color: white;
+  padding-left: 20px;
+  display: flex;
+  width: auto;
+  align-items: left;
+  justify-content: center;
+  margin-top: -7px;
+}
+
+.a {
+  text-decoration: none;
+}
